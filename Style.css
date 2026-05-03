@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }   
+      
+      
+      /* Navbar */
+
+      .icon-link {
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover,
+.nav-link:hover {
+  color: #f3d10f;
+}
+
+.navbar-brand span {
+  font-size: 18px;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+      
+
+                      /**index.html....hero section**/
+                    /* Hero Section Wrapper */
+.hero {
+  width: 100%;
+  height: 100vh;             /* full viewport height */
+  overflow: hidden;
+}
+
+/* Image Wrapper */
+.hero-image-wrapper {
+  width: 100%;
+  height: 100%;              /* wrapper full height */
+}
+
+/* Image */
+.herosection1 {
+  width: 100%;
+  height: 100vh;              /* full height of wrapper */
+  object-fit: cover;  
+    
+  display: block;
+}
+
+/* Buttons */
+.hero-buttons {
+  bottom: 10px;
+  left: 10px;
+  /* transform: translateX(-50%);
+  text-align: center; 
+} */
+}
+
+
+
+                        /* home.html...ProductItems...Cards */
+
+.card1{
+    height: 280px;
+    object-fit: cover;
+}
+.line{
+    opacity: 1;
+    border-top: 2px solid rgb(255, 193, 7, 1);
+}
+.colour{
+    color: maroon;
+    font-weight: bold;
+}
+
+  /* Delivery System */
+
+.herosection3{
+    
+    height: 435px;
+    width: 100%;
+    background-size: cover; 
+}
+ .FreeContent{
+    /* position: absolute; */ 
+    /* padding: 0; */
+    top: 0px;
+    left: 30px;
+}
+
+.DeliveryBoy{
+   /* position: relative; */
+    height: 200px;
+    width: 430px;
+    /* top: 80px; */
+}
+
+.DeliveryContent{
+     /* position: absolute; */
+   margin-top: 0px;
+    margin-left: 130px; 
+}
+.favourite{
+    /* position: absolute; */
+    margin-left: 0px;
+    font-size: 30px;
+    margin-top: 0;
+    font-weight: bolder;
+    font-family: Impact;
+
+}
+.font{
+   /* position: absolute; */
+    font-family:Brush Script MT;
+}
+.DeliveryContent2{
+   /* position: absolute; */
+        font-size: 27px;
+   margin-top: 0px;
+    margin-left: -23px; 
+}
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("CafePics/Courier Girl.jpg");
+    background-size: cover;        /* full width & full height, minimal crop */
+    background-position: center;   /* center se crop hoti hai */
+    background-repeat: no-repeat;
+    position: relative;
+    /* transition: all 0.9s ease-in-out; */
+}
+
+.hero-text {
+    position: absolute;
+      /* text screen ke upar side me dikhe */
+      bottom: 50px;
+    left: 1%;
+    transform: translateY(0px);
+     transition: transform 0.9s ease-in-out;
+}
+
+.hero-text h1 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.hero-section:hover .hero-text{
+
+    transform: translateY(-250px);
+}
+/* 
+    0%{
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-50%);
+    } */
+
+
+                    /* Login.html...Signup page */
+    
+    .logInSignup{
+        top: 10px;
+        z-index: 1;
+        position: relative;
+    }
+
+     .login-bg-wrapper
+     {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        width: 100%;
+       
+     }
+     .Bg-img{
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter:opacity(0.4);
+        z-index: 0;
+     }
+     .login-card{
+        max-width: 400px;
+        opacity: 1;
+        position: absolute;
+        top: 100px;
+        z-index: 3;
+       
+     }
+
+                    /* Item Overview */
+
+.Productimg{
+   height: 450px;
+   width: 100%;
+   object-fit: cover;
+    border-radius: 30px;
+   
+}
+
+.Productimgs{
+      height: 470px;
+   width: 100%;
+   object-fit: cover;
+  
+   
+}
+.product-section{
+    margin-top: 140px;
+}
+.productstars{
+   line-height: 2;
+}
+.productDesc{
+    font-size: large;
+}
+.productprice{
+    font-weight: bold;
+    color: maroon;
+}
+.nav-pills .nav-link {
+  background-color: #e5e5e5;      
+  color: #000;                    
+  border-radius: 8px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #000;        
+  color:#fff;                   
+}
+
+.nav-pills .nav-link:hover {
+  background-color:#f3d10f;         /* Hover effect */
+  color:#090909;
+}
+
+
+
+
+.hero3{
+    
+    height: 100vh;
+   
+     object-fit: cover;
+}
+
+.hero1{
+    
+    height: 100vh;
+   
+     object-fit: cover;
+}
+.category-item1{
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+}
+.category-item2{
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+}
+.category-item2{
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+}
+/* .products{
+      max-height: 100px;
+} */
+
+.Categoriy{
+    min-width: 170px;
+}
+
+.beverages{
+    height: 185px;
+    width: 185px;
+    object-fit: cover;
+    /* width: 220px;
+    height: 185px; */
+}
+                      /* navbar img */
+.logoImg{
+    width: 65px;
+    height: 65px;
+}
+
+.cofee{
+    height: 250px;
+    width: 355px;
+}
+
+.image1{
+    max-width: 100%;
+}
+
+
+                                      /* <!--Footer--> */
+
+.FooterImg{
+    height: 180px;
+    width: 180px;
+}
+
+                         /* Add to cart page */
+
+.cart1{
+    width: 100px;
+    height: 100px;
+}
+.body5{
+    background-color: rgb(224, 231, 231);
+    
+    
+              /* cartitem.html */
+}
+.cart5{
+    margin-top: 130px;
+    
+}
+.valueWid{
+    max-width: 50px;
+}
+
+
+     /* Payment Method */
+
+.payment{
+    margin-top: 110px;
+}
+
+
